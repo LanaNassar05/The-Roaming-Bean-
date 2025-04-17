@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Little Explorers Café</title>
+    <link rel="stylesheet" href="FinalProject.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+@import url("FinalProject.css");
+
+p { font-face: Verdana;}
+body {background: #f5f5dc;}
+</style>
+
+</head>
+<body>
+<div id="container">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1><img src="The_Roaming_Cafe.png" alt="Cafe Pic" width="800" height="500"><br><br><strong>The Roaming Bean Cafe</strong></h1>
+        <h2>Welcome to Our Café!</h2>
+        <p>Enjoy our freshly brewed drinks and delicious pastries.</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At The Roaming Bean Café, we believe that a great day starts with a great cup of coffee. Nestled in the heart of the community, our café is a cozy retreat where friends, families, and explorers of all kinds come together to enjoy handcrafted drinks, freshly baked pastries, and a welcoming atmosphere.<br><br>
+
+We’re more than just a coffee shop. We’re a space for connection. Whether you're catching up with a friend, studying for an exam, or grabbing your favorite latte on the go, we’re here to serve with a smile. Our ingredients are thoughtfully sourced, and our baristas are passionate about crafting each drink to perfection.<br><br>
+
+<b>Stop by, take a sip, and make yourself at home. We can't wait to serve you!</b></p>
+<img src="coffee.gif" alt="Dancing coffee cup"  width="200" height="200">
+        </section>
+
+        <section id="news">
+            <h2>Latest News</h2>
+                <p style="color: #008080;"><em><b>☕ Spring Specials Have Arrived!</b><br><p></em>
+<p>We're excited to roll out our seasonal favorites! <br><br>
+<b>Try our new:</b><br>
+
+Maple Cinnamon Latte – sweet, cozy, and perfect for spring mornings.<br>
+
+Lavender Honey Cold Brew – floral and refreshing for warmer afternoons.<br></p>
+
+<p style="color: #556b2f;" ><b>🎉 Community Story Hour — Saturdays @ 10 AM</b></p>
+<p>Join us every Saturday morning for Story Hour — a free event for kids and families! Enjoy a warm drink while the little ones listen to fun, interactive stories read by our friendly team and local guests.<br><br></p>
+
+<p style="color: #556b2f;" ><b>📱 Mobile Orders Now Available!</b></p>
+<p>Skip the line! You can now place orders ahead using our new mobile ordering feature. Just tap the “Order” button on our website to customize your drink and swing by for pickup.<br></p>
+
+<p style="color: #556b2f;" ><b>🎨 Art from Local Creatives</b><br></p>
+<p>We’re showcasing artwork from local artists all month long! Come check out what’s on our café walls and support our community’s talent.</p>
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <table border="1">
+                <thead><tr><th>Item</th><th>Price</th><th>Calories</th><th>Rating</th></tr></thead>
+                <tbody>
+                    <tr><td>Iced Latte</td><td>$5.49</td><td>250-300</td><td>4.5/5</td></tr>
+                    <tr><td>Pumpkin Croissant</td><td>$3.99</td><td>350-400</td><td>5/5</td></tr>
+                    <tr><td>Biscoff Cheesecake</td><td>$6.99</td><td>450-500</td><td>4.7/5</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Iced Latte</h4>
+                        <img src="Iced_latte.jpg" alt="Latte" class="img-fluid rounded">
+                        <p>Rich espresso with smooth flavor.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Pumpkin Croissant</h4>
+                        <img src="pumpkin_croissants.jpg" alt="Croissant" class="img-fluid rounded">
+                        <p>Flaky pastry filled with spiced pumpkin goodness.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Biscoff Cheesecake</h4>
+                        <img src="Biscoff_Cheesecake.jpeg" alt="Cheesecake" class="img-fluid rounded">
+                        <p>Decadent cheesecake topped with Biscoff cookies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="order">
+            <h2>Place Your Order</h2>
+            <form method="POST" action="#">
+                <label for="name">Name:</label><input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><input type="email" id="email" name="email"><br><br>
+                <label for="latte">Choose a Latte:</label>
+                <select id="latte" name="latte">
+                    <option value="vanilla">Vanilla Latte</option>
+                    <option value="caramel">Caramel Latte</option>
+                    <option value="mocha">Mocha Latte</option>
+                </select><br><br>
+                <input type="submit" value="Submit Order">
+            </form>
+        </section>
+
+        
+
+        <section>
+            <h2>Watch Our Featured Video</h2>
+           <video src="Cinematic_Iced_Latte_Experience (1).mp4" width="560" height="315" controls>
+  Sorry, your browser doesn't support HTML5 video.
+</video>
+        </section>
+
+
+        <section>
+            <h2>Links You Might Want to Visit</h2>
+            <ul>
+		<li><a href="https://en.wikipedia.org/wiki/Coffee">Coffee - Wikipedia</a></li>
+		<li><a href="https://www.batchcoffee.co.uk/stories/coffee-facts">Coffee Facts</a></li>
+                <li><a href="https://bakingmischief.com/iced-caramel-latte/">Iced Caramel Latte Recipe</a></li>
+                <li><a href="https://petitbakes.com/post/179074220120/pumpkin-croissants">Pumpkin Croissant Recipe</a></li>
+                <li><a href="https://www.coffeescience.org/latte-art-beginners-guide/">Latte Art - A Beginner’s Guide</a></li>
+                
+            </ul>
+        </section>
+
+<section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email us at <a href="mailto:info@theroamingbean.com">info@theroamingbean.com</a></p>
+            <p>📞 Call us at (313) 555-856</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 The Roaming Bean. All rights reserved.</p>
+        <p>📬 <a href="mailto:info@theroamingbean.com">Contact us via email</a></p>
+    </footer>
+</div>
+</body>
+</html>
